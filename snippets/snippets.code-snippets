@@ -1,0 +1,107 @@
+{
+  "Ember Component": {
+    "prefix": "!Em:Component",
+    "description": "Ember component",
+    "body": [
+      "import Component from '@ember/component';",
+      "$0",
+      "export default Component.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  },
+  "Ember Route": {
+    "prefix": "!Em:Route",
+    "description": "Ember Route",
+    "body": [
+      "import Route from '@ember/routing/route';",
+      "$0",
+      "export default Route.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  },
+  "Ember Router": {
+    "prefix": "!Em:Router",
+    "description": "Enber router",
+    "body": [
+      "import EmberRouter from '@ember/routing/router';",
+      "$0",
+      "export default EmberRouter.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  },
+  "Ember Service": {
+    "prefix": "!Em:Service",
+    "description": "Ember service",
+    "body": [
+      "import Service from '@ember/service';",
+      "$0",
+      "export default Service.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  },
+  "Ember Controller": {
+    "prefix": "!Em:Controller",
+    "description": "Ember Controller",
+    "body": [
+      "import Controller from '@ember/controller';",
+      "$0",
+      "export default Controller.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  },
+  "Ember Helper": {
+    "prefix": "!Em:Helper",
+    "description": "Ember Helper",
+    "body": [
+      "import Helper from '@ember/component/helper';",
+      "$0",
+      "export default Helper.helper(<functionName>)"
+    ]
+  },
+  "Ember TextArea": {
+    "prefix": "!Em:TextArea",
+    "description": "Ember TextArea",
+    "body": [
+      "import TextArea from '@ember/component/text-area';",
+      "$0",
+      "export default TextArea.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  },
+  "Ember Object": {
+    "prefix": "!Em:Object",
+    "description": "Ember Object",
+    "body": [
+      "import EmberObject from '@ember/object';",
+      "$0",
+      "export default EmberObject.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  },
+  "Ember Checkbox": {
+    "prefix": "!Em:Checkbox",
+    "description": "Ember Checkbox",
+    "body": [
+      "import Checkbox from '@ember/component/checkbox';",
+      "$0",
+      "export default Checkbox.extend({",
+      "${1}",
+      "});",
+      "$0"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ember-snippets",
+    "displayName": "ember-snippets",
+    "description": "Ember snippets for new file creations",
+    "version": "1.0.0",
+    "publisher": "sathik-basha",
+    "icon": "ember-logo.png",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
